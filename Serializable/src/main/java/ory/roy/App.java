@@ -28,6 +28,7 @@ public class App
         System.out.println(s1);
         System.out.println("w1:"+w1);
 
+/*
         //序列化操作2--ByteArrayOutputStream
         ByteArrayOutputStream byteOutStream = new ByteArrayOutputStream();
         ObjectOutputStream oos2 = new ObjectOutputStream(byteOutStream);
@@ -44,5 +45,6 @@ public class App
         System.out.println("After deserialize 1");
         System.out.println(s2);
         System.out.println("w2:"+w2);
+*/
     }
 }

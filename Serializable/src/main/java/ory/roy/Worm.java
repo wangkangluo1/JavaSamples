@@ -14,7 +14,7 @@ package ory.roy;
  * 用于测试序列化，每个对象Worm对象都与worm中的下一段链接，同时又有属于不同类（Data）的对象引用数组链接
  */
 public class Worm implements Serializable {
-    private static final long serialVersionUID = 5468335797443850679L;
+    //private static final long serialVersionUID = 5468335797443850679L;
     private Data[] d = {
             new Data(random.nextInt(10)),
             new Data(random.nextInt(10)),

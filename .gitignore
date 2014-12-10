@@ -50,3 +50,6 @@ Temporary Items
 */.*.iws
 *.iml
 Serializable/worm.out
+*.prefs
+*.project
+*.classpath
